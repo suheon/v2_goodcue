@@ -12,7 +12,7 @@
         right: 101% !important;
 
         .dropdown-item.open + .dropdown-menu,
-        .dropdown-item.open + .dropdown-menu.show,{
+        .dropdown-item.open + .dropdown-menu.show {
           left: -165px !important;
         }
       }
@@ -125,6 +125,7 @@
             display: flex;
             -ms-flex-pack: justify !important;
             justify-content: space-between !important;
+            //justify-content: stretch !important; // edit by hitnam
             -ms-flex-align: center;
             align-items: center;
             @include transitions-property (transform, 0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
@@ -371,7 +372,6 @@
 
 
 // Menu on LEFT
-
 @media screen and (max-width: 991px){
   .menu-on-left{
     .page-header,

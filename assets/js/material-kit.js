@@ -328,6 +328,7 @@ $(document).on('click', '.card-rotate .btn-rotate', function() {
 });
 
 $(document).on('click', '.navbar-toggler', function() {
+
   $toggle = $(this);
 
   if (materialKit.misc.navbar_menu_visible == 1) {
