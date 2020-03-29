@@ -1,15 +1,24 @@
 @media (min-width: 576px) and (max-width: 991px) {
   .navbar .container {
-      max-width: 100%;
+    max-width: 100%;
   }
 }
 
-.justify-content-end button.btn-primary {
-  padding: 10px 23px;
+.form-inline button.btn-primary {
+  padding: 9px 23px;
 }
 
-.justify-content-end button.btn-secondary {
-  color: #6e4ef7;
+.form-inline button.btn-outline-primary,
+.form-inline button.btn-link {
   padding: 10px 15px;
-  border: 1px solid #6e4ef7;
+}
+
+.navbar .navbar-brand img {
+  width: 150px;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar .navbar-brand img {
+    width: 120px;
+  }
 }

@@ -9534,7 +9534,7 @@ button:focus {
   position: relative;
   padding: 12px 30px;
   margin: 0.3125rem 1px;
-  font-size: .875rem;
+  font-size: 0.75rem;
   font-weight: 400;
   line-height: 1.42857;
   text-decoration: none;
@@ -20979,8 +20979,8 @@ select.selectpicker {
 }
 
 @media all and (max-width: 991px) {
-  [class*="navbar-expand-"] > .container,
-  [class*="navbar-expand-"] > .container-fluid {
+  [class*='navbar-expand-'] > .container,
+  [class*='navbar-expand-'] > .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -21029,7 +21029,7 @@ select.selectpicker {
     position: absolute;
     background-color: #fff;
     display: block;
-    content: "";
+    content: '';
     z-index: 1;
   }
   .navbar-collapse .dropdown-toggle:after {
@@ -21057,7 +21057,7 @@ select.selectpicker {
   }
   .navbar-collapse .navbar-nav .nav-item:after {
     width: calc(100% - 30px);
-    content: "";
+    content: '';
     display: block;
     height: 1px;
     margin-left: 15px;
@@ -21133,7 +21133,7 @@ select.selectpicker {
     top: 0;
     left: auto;
     right: 230px;
-    content: "";
+    content: '';
     z-index: 1029;
     overflow-x: hidden;
   }
@@ -21446,8 +21446,7 @@ select.selectpicker {
   }
   .menu-on-left .navbar .navbar-translate .navbar-brand {
     position: absolute;
-    right: 0;
-    top: -15px;
+    left: 60px;
   }
   .nav-open .menu-on-left .page-header,
   .nav-open .menu-on-left .main {
@@ -21477,3 +21476,4 @@ select.selectpicker {
     width: 245px;
   }
 }
+/*# sourceMappingURL=material-kit.css.map */
