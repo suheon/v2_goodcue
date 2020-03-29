@@ -1,24 +1,56 @@
-@media (min-width: 576px) and (max-width: 991px) {
-  .navbar .container {
-    max-width: 100%;
-  }
+.navbar-collapse .btn-primary {
+  padding: 9px 16px;
 }
 
-.form-inline button.btn-primary {
-  padding: 9px 23px;
-}
-
-.form-inline button.btn-outline-primary,
-.form-inline button.btn-link {
-  padding: 10px 15px;
+.navbar-collapse .btn-outline-secondary,
+.navbar-collapse .btn-link {
+  padding: 8px 8px;
 }
 
 .navbar .navbar-brand img {
   width: 150px;
 }
 
+.mobile-only {
+    display: none;
+}
+
+
+
+.navbar-collapse a.nav-link {
+    color: #555;
+    font-size:12px;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .navbar .container {
+      max-width: 100%;
+    }
+    .container {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
 @media screen and (max-width: 991px) {
   .navbar .navbar-brand img {
     width: 120px;
   }
-}
+  .mobile-only {
+    display: flex;
+  }
+  .card {
+      margin-top:15px;
+  }
+  .profile {
+      display:none;
+  }
+  .mobile-only .profile {
+      display: inline-block;
+  }
+} 
