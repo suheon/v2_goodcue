@@ -18281,10 +18281,6 @@ thead.thead-inverse th,
   display: block;
 }
 
-.section {
-  padding: 70px 0;
-}
-
 .section-navbars {
   padding-bottom: 0;
 }
@@ -21075,7 +21071,6 @@ select.selectpicker {
     transform: translate3d(-250px, 0, 0);
   }
   .navbar .navbar-translate {
-    width: 50%;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -21106,7 +21101,6 @@ select.selectpicker {
   .navbar .dropdown .dropdown-menu {
     background-color: transparent;
     border: 0;
-    padding-bottom: 15px;
     -webkit-transition: none;
     transition: none;
     -webkit-box-shadow: none;
@@ -21114,13 +21108,11 @@ select.selectpicker {
     -webkit-transform: none !important;
             transform: none !important;
     width: auto;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding-top: 0;
-    height: 300px;
     -webkit-animation: none;
             animation: none;
     opacity: 1;
-    overflow-y: scroll;
   }
   .navbar.navbar-transparent .navbar-toggler .navbar-toggler-icon {
     background-color: #fff;

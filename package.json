@@ -1,5 +1,5 @@
 {
-  "name": "material-kit-pro",
+  "name": "@goodcue/v2_goodcue",
   "description": "Premium Bootstrap 4 Material Design",
   "version": "3.0.0",
   "homepage": "http://creative-tim.com/product/material-kit-pro",
@@ -14,5 +14,7 @@
     "gulp-open": "^3.0.1",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5"
-  }
+  },
+
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }

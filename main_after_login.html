@@ -40,7 +40,7 @@
 
           <div class="collapse navbar-collapse">
 
-            <div class="navbar-nav mobile-only">
+            <div class="navbar-nav mobile-only d-none">
               <div class="nav-item my-4 d-flex justify-content-center mx-4 invisible">
                 <button type="button" class="btn btn-primary mr-2">로그인</button>
                 <button type="button" class="btn btn-outline-secondary">회원가입</button>
@@ -100,32 +100,35 @@
                     </div>
                   <div class="ripple-container"></div></a>
                   <div class="dropdown-menu dropdown-menu-right">
-                    <h6 class="dropdown-header">Dropdown header</h6>
-                    <a href="#pablo" class="dropdown-item">Me</a>
-                    <a href="#pablo" class="dropdown-item">Settings and other stuff</a>
-                    <a href="#pablo" class="dropdown-item">Sign out</a>
+                    <!-- <h6 class="dropdown-header">Dropdown header</h6> -->
+                    <a href="#pablo" class="dropdown-item">마이 페이지</a>
+                    <a href="#pablo" class="dropdown-item">회원정보관리</a>
+                    <a href="#pablo" class="dropdown-item">로그아웃</a>
                   </div>
                 </li>
               </ul>
             </form>
           </div>
 
-          <div class="mobile-only ml-auto">
+          <div class="mobile-only">
+            <a class="nav-link" href="/notice"><i class="material-icons">info</i> </a>
+
             <button type="submit" class="btn btn-white btn-just-icon btn-round">
               <i class="material-icons">search</i>
             </button>
-            <ul class="navbar-nav ml-auto profile">
-              <li class="dropdown nav-item">
+            
+            <ul class="profile">
+              <li class="dropdown">
                 <a href="#pablo" class="profile-photo dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
                   <div class="profile-photo-small">
                     <img src="./assets/img/faces/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
                   </div>
                 <div class="ripple-container"></div></a>
                 <div class="dropdown-menu dropdown-menu-right">
-                  <h6 class="dropdown-header">Dropdown header</h6>
-                  <a href="#pablo" class="dropdown-item">Me</a>
-                  <a href="#pablo" class="dropdown-item">Settings and other stuff</a>
-                  <a href="#pablo" class="dropdown-item">Sign out</a>
+                  <!-- <h6 class="dropdown-header">Dropdown header</h6> -->
+                  <a href="#pablo" class="dropdown-item">마이 페이지</a>
+                  <a href="#pablo" class="dropdown-item">회원정보관리</a>
+                  <a href="#pablo" class="dropdown-item">로그아웃</a>
                 </div>
               </li>
             </ul>

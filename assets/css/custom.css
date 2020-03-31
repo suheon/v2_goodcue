@@ -15,11 +15,18 @@
     display: none;
 }
 
-
+.navbar-translate.pr-1 {
+    z-index: 5;
+    background-color: white;
+}
 
 .navbar-collapse a.nav-link {
     color: #555;
     font-size:12px;
+}
+
+.container#root {
+    padding-top:70px;
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
@@ -38,6 +45,9 @@
   }
   
 @media screen and (max-width: 991px) {
+  .navbar .navbar-brand {
+    background-color: white;
+  }
   .navbar .navbar-brand img {
     width: 120px;
   }
@@ -50,7 +60,41 @@
   .profile {
       display:none;
   }
+  .mobile-only a.nav-link {
+      color:#555;
+      font-size:12px;
+  }
   .mobile-only .profile {
       display: inline-block;
+      margin:0;
+      padding-left:1rem;
+  }
+
+  .mobile-only .profile-photo-small {
+    height: 40px;
+    width: 40px;
+  }
+  .mobile-only ul {
+      list-style:none;
+  }
+  .mobile-only .dropdown-toggle:after {
+      display: none;
+  }
+  .mobile-only ul li a {
+      padding:0;
+  }
+  .mobile-only .profile .dropdown .dropdown-menu.dropdown-menu-right {
+    right: 0;
+    left: auto;
+    background: white;
+    overflow: auto;
+    height: auto;
+  }
+
+  .mobile-only .profile .dropdown .dropdown-menu .dropdown-item, .dropdown-menu li > a {
+    margin: 0 0.3125rem;
+  }
+  .navbar .mobile-only .dropdown.show .dropdown-menu, .navbar .dropdown .dropdown-menu {
+      padding: 0.3125rem 0;
   }
 } 
